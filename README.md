@@ -1,9 +1,13 @@
 ## datafun-05-sql
 ## Project 5 repository
 
-## Start a new project repository in GitHub and then clone down to local machine. I leveraged VS Code clone functionality
+### Step 1. Start a new project repository in GitHub with default ReadME
 
-## Create Virtual Environment
+### Step 2.  Clone down to local machine. I leveraged VS Code clone functionality
+
+### Step 3. Open project in VS Code 
+
+### Step 4. Create and activate Virtual Environment
 
 ```shell
 
@@ -13,7 +17,7 @@ py -m venv .venv
 
 ```
 
-## Add requirements folder
+### Step 5. Add requirements folder
 
 ```shell
 
@@ -22,20 +26,20 @@ ni requirements.txt
 py -m pip install -r requirements.txt
 ```
 
-## Add gitignore
+### Step 6. Add gitignore and  with .vscode/ and .venv/ and whatever else doesn't need to go in the repo.
 
 ```shell
 
 ni gitignore
 ```
-## Add script
+### Step 7. Add script
 
 ```shell
 brennan_sql.py
 ```
 
 ## How to Install and Run the Project
-## Add dependencies
+### Step 8. Add dependencies
 
 ```shell
 
@@ -47,14 +51,14 @@ py -m pip install seaborn
 py -m pip install scipy
 ```
 
-## Freeze dependencies
+### Step 9. Freeze dependencies
 
 ```shell
 
 py -m pip freeze > requirements.txt
 ```
 
-## Git add and commit 
+### Step 10. Git add and commit 
 
 ```shell
 git add .
