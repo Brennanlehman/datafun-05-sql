@@ -32,13 +32,14 @@ py -m pip install -r requirements.txt
 
 ni gitignore
 ```
+## How to Install and Run the Project
+
 ### Step 7. Add script
 
 ```shell
 brennan_sql.py
 ```
 
-## How to Install and Run the Project
 ### Step 8. Add dependencies
 
 ```shell
