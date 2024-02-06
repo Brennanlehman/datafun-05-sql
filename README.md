@@ -1,5 +1,6 @@
 ## datafun-05-sql
 ## Project 5 repository
+# Objective: Create a Python script that demonstrates the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
 
 ### Step 1. Start a new project repository in GitHub with default ReadME
 
@@ -37,7 +38,12 @@ ni gitignore
 ### Step 7. Add script
 
 ```shell
-brennan_sql.py
+ni book_authors_sql.py
+```
+
+### Step 7.1 Added second python program to run sql scripts from
+```shell
+ni book_author_sql_execute.py
 ```
 
 ### Step 8. Add dependencies
@@ -64,3 +70,67 @@ git add .
 git commit -m "add .gitignore, cmds to readme"
 git push origin main
 ```
+### Project components
+
+### Step 1. Create python script 
+```ni books_authors_sql.py
+```
+### Step 2. Create database using the python file
+```db_file = pathlib.Path("project.db")
+
+def create_database():
+    """Function to create a database. Connecting for the first time
+    will create a new database file if it doesn't exist yet.
+    Close the connection after creating the database
+    to avoid locking the file."""
+    try:
+        conn = sqlite3.connect(db_file)
+        conn.close()
+        print("Database created successfully.")
+    except sqlite3.Error as e:
+        print("Error creating the database:", e)
+```
+
+### Step 3. Create sql scripts in sql_file folder
+
+```shell
+ni create_tables.sql
+ni delete_tables.sql
+ni insert_records.sql
+ni query_aggreation.sql
+ni query_filter.sql
+ni query_sorting.sql
+ni query_group_by.sql
+ni query_join.sql
+```
+import logging
+
+# Step 4. Python and SQL Integration
+```import sqlite3
+
+def execute_sql_from_file(db_filepath, sql_file):
+    with sqlite3.connect(db_filepath) as conn:
+        with open(sql_file, 'r') as file:
+            sql_script = file.read()
+        conn.executescript(sql_script)
+        print(f"Executed SQL from {sql_file}")
+```
+
+### 5. Define Main Function
+```def main():
+    db_filepath = 'your_database.db'
+
+    # Create database schema and populate with data
+    execute_sql_from_file(db_filepath, 'create_tables.sql')
+    execute_sql_from_file(db_filepath, 'insert_records.sql')
+    execute_sql_from_file(db_filepath, 'update_records.sql')
+    execute_sql_from_file(db_filepath, 'delete_records.sql')
+    execute_sql_from_file(db_filepath, 'query_aggregation.sql')
+    execute_sql_from_file(db_filepath, 'query_filter.sql')
+    execute_sql_from_file(db_filepath, 'query_sorting.sql')
+    execute_sql_from_file(db_filepath, 'query_group_by.sql')
+    execute_sql_from_file(db_filepath, 'query_join.sql')
+
+    logging.info("All SQL operations completed successfully")
+```
+

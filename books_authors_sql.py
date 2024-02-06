@@ -1,6 +1,19 @@
+#Brennan Lehman
+#Project 5 
+"""Project 5 integrates Python and SQL, focusing on database interactions using SQLite. This project introduces logging, 
+a useful tool for debugging and monitoring projects, and involves creating and managing a database, building a schema, 
+and performing various SQL operations, including queries with joins, filters, and aggregations."""
+
 import sqlite3
 import pandas as pd
 import pathlib
+import logging
+
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started")
+logging.info("Program ended")
 
 # Define the database file in the current root project directory
 db_file = pathlib.Path("project.db")
@@ -46,19 +59,16 @@ def insert_data_from_csv():
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
         print("Error inserting data:", e)
 
-def execute_sql_from_file(db_filepath, sql_file):
-    with sqlite3.connect(db_filepath) as conn:
-        with open(sql_file, 'r') as file:
-            sql_script = file.read()
-        conn.executescript(sql_script)
-        print(f"Executed SQL from {sql_file}")
-db_filepath = 'project.db'
+
+
+db_filepath = pathlib.Path("C:\\Users\\blehman\\Projects\\datafun-05-sql\\project.db")
+
 def main():
     create_database()
     create_tables()
     insert_data_from_csv()
-    
-    execute_sql_from_file(db_filepath, 'sql_file/delete_records.sql')
+
+    logging.info("All SQL operations completed successfully")
 
 if __name__ == "__main__":
     main()

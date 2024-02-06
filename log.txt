@@ -90,3 +90,107 @@
 2024-02-06 09:06:56,084 - INFO - All SQL operations completed successfully
 2024-02-06 09:08:25,068 - INFO - Program started
 2024-02-06 09:08:25,068 - INFO - Program ended
+2024-02-06 11:28:57,617 - INFO - Program started
+2024-02-06 11:28:57,617 - INFO - Program ended
+2024-02-06 11:29:40,978 - INFO - Program started
+2024-02-06 11:29:40,978 - INFO - Program ended
+2024-02-06 11:29:41,100 - INFO - All SQL operations completed successfully
+2024-02-06 11:30:41,159 - INFO - Program started
+2024-02-06 11:30:41,159 - INFO - Program ended
+2024-02-06 11:30:41,254 - INFO - All SQL operations completed successfully
+2024-02-06 11:34:02,464 - INFO - Program started
+2024-02-06 11:34:02,464 - INFO - Program ended
+2024-02-06 11:34:02,546 - INFO - All SQL operations completed successfully
+2024-02-06 11:38:42,383 - INFO - Program started
+2024-02-06 11:38:42,383 - INFO - Program ended
+2024-02-06 11:38:42,463 - INFO - All SQL operations completed successfully
+2024-02-06 11:41:24,654 - INFO - Program started
+2024-02-06 11:41:24,654 - INFO - Program ended
+2024-02-06 11:41:30,939 - INFO - Program started
+2024-02-06 11:41:30,939 - INFO - Program ended
+2024-02-06 11:44:34,392 - INFO - Program started
+2024-02-06 11:44:34,392 - INFO - Program ended
+2024-02-06 11:44:34,471 - INFO - All SQL operations completed successfully
+2024-02-06 11:47:16,558 - INFO - Program started
+2024-02-06 11:47:16,558 - INFO - Program ended
+2024-02-06 11:47:16,676 - INFO - All SQL operations completed successfully
+2024-02-06 11:47:49,811 - INFO - Program started
+2024-02-06 11:47:49,811 - INFO - Program ended
+2024-02-06 11:47:49,919 - INFO - All SQL operations completed successfully
+2024-02-06 11:49:08,632 - INFO - Program started
+2024-02-06 11:49:08,632 - INFO - Program ended
+2024-02-06 11:49:08,748 - INFO - All SQL operations completed successfully
+2024-02-06 11:49:56,702 - INFO - Program started
+2024-02-06 11:49:56,702 - INFO - Program ended
+2024-02-06 11:49:56,794 - INFO - All SQL operations completed successfully
+2024-02-06 11:54:25,833 - INFO - Program started
+2024-02-06 11:54:25,833 - INFO - Program ended
+2024-02-06 11:55:44,860 - INFO - Program started
+2024-02-06 11:55:44,860 - INFO - Program ended
+2024-02-06 11:55:44,967 - INFO - All SQL operations completed successfully
+2024-02-06 11:56:12,151 - INFO - Program started
+2024-02-06 11:56:12,151 - INFO - Program ended
+2024-02-06 11:56:12,260 - INFO - All SQL operations completed successfully
+2024-02-06 11:56:20,829 - INFO - Program started
+2024-02-06 11:56:20,829 - INFO - Program ended
+2024-02-06 11:56:20,928 - INFO - All SQL operations completed successfully
+2024-02-06 11:57:06,377 - INFO - Program started
+2024-02-06 11:57:06,378 - INFO - Program ended
+2024-02-06 11:58:11,689 - INFO - Program started
+2024-02-06 11:58:11,689 - INFO - Program ended
+2024-02-06 11:58:11,805 - INFO - All SQL operations completed successfully
+2024-02-06 11:58:53,589 - INFO - Program started
+2024-02-06 11:58:53,589 - INFO - Program ended
+2024-02-06 11:58:53,693 - INFO - All SQL operations completed successfully
+2024-02-06 12:00:38,898 - INFO - Program started
+2024-02-06 12:00:38,898 - INFO - Program ended
+2024-02-06 12:01:38,061 - INFO - Program started
+2024-02-06 12:01:38,061 - INFO - Program ended
+2024-02-06 12:01:38,179 - INFO - All SQL operations completed successfully
+2024-02-06 12:04:15,650 - INFO - Program started
+2024-02-06 12:04:15,650 - INFO - Program ended
+2024-02-06 12:04:15,787 - INFO - All SQL operations completed successfully
+2024-02-06 12:06:40,880 - INFO - Program started
+2024-02-06 12:06:40,880 - INFO - Program ended
+2024-02-06 12:06:40,971 - INFO - All SQL operations completed successfully
+2024-02-06 12:09:53,089 - INFO - Program started
+2024-02-06 12:09:53,090 - INFO - Program ended
+2024-02-06 12:09:53,205 - INFO - All SQL operations completed successfully
+2024-02-06 12:10:16,843 - INFO - Program started
+2024-02-06 12:10:16,843 - INFO - Program ended
+2024-02-06 12:10:16,948 - INFO - All SQL operations completed successfully
+2024-02-06 12:15:12,296 - INFO - Program started
+2024-02-06 12:15:12,297 - INFO - Program ended
+2024-02-06 12:16:04,528 - INFO - Program started
+2024-02-06 12:16:04,529 - INFO - Program ended
+2024-02-06 12:16:04,602 - INFO - All SQL operations completed successfully
+2024-02-06 12:17:03,983 - INFO - Program started
+2024-02-06 12:17:03,983 - INFO - Program ended
+2024-02-06 12:17:04,121 - INFO - All SQL operations completed successfully
+2024-02-06 12:22:32,214 - INFO - Program started
+2024-02-06 12:22:32,214 - INFO - Program ended
+2024-02-06 12:22:32,289 - INFO - All SQL operations completed successfully
+2024-02-06 12:31:12,562 - INFO - Program started
+2024-02-06 12:31:12,563 - INFO - Program ended
+2024-02-06 12:31:28,254 - INFO - Program started
+2024-02-06 12:31:28,254 - INFO - Program ended
+2024-02-06 12:31:52,621 - INFO - Program started
+2024-02-06 12:31:52,621 - INFO - Program ended
+2024-02-06 12:32:49,764 - INFO - Program started
+2024-02-06 12:32:49,764 - INFO - Program ended
+2024-02-06 12:32:49,795 - INFO - All SQL operations completed successfully
+2024-02-06 12:33:29,076 - INFO - Program started
+2024-02-06 12:33:29,076 - INFO - Program ended
+2024-02-06 12:33:29,081 - INFO - All SQL operations completed successfully
+2024-02-06 12:33:52,981 - INFO - Program started
+2024-02-06 12:33:52,981 - INFO - Program ended
+2024-02-06 12:33:53,064 - INFO - All SQL operations completed successfully
+2024-02-06 12:34:19,951 - INFO - Program started
+2024-02-06 12:34:19,951 - INFO - Program ended
+2024-02-06 12:34:19,963 - INFO - All SQL operations completed successfully
+2024-02-06 12:43:56,354 - INFO - Program started
+2024-02-06 12:43:56,354 - INFO - Program ended
+2024-02-06 12:43:56,374 - INFO - All SQL operations completed successfully
+2024-02-06 12:50:59,651 - INFO - Program started
+2024-02-06 12:50:59,651 - INFO - Program ended
+2024-02-06 12:50:59,672 - INFO - All SQL operations completed successfully
