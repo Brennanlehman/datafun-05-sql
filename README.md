@@ -78,7 +78,8 @@ ni books_authors_sql.py
 ni author_sql_execute.py
 ```
 ### Step 2. Create database using the python file
-```db_file = pathlib.Path("project.db")
+```shell
+db_file = pathlib.Path("project.db")
 
 def create_database():
     """Function to create a database. Connecting for the first time
@@ -107,7 +108,8 @@ ni query_join.sql
 ```
 
 ### Step 4. Python and SQL Integration
-```import sqlite3
+```shell
+import sqlite3
 
 def execute_sql_from_file(db_filepath, sql_file):
     with sqlite3.connect(db_filepath) as conn:
@@ -118,19 +120,20 @@ def execute_sql_from_file(db_filepath, sql_file):
 ```
 
 ### 5. Define Main Function
-```def main():
+```shell
+def main():
     db_filepath = pathlib.Path("C:\\Users\\blehman\\Projects\\datafun-05-sql\\project.db")
 
     # Create database schema and populate with data
-    execute_sql_from_file(db_filepath, 'create_tables.sql')
-    execute_sql_from_file(db_filepath, 'insert_records.sql')
-    execute_sql_from_file(db_filepath, 'update_records.sql')
-    execute_sql_from_file(db_filepath, 'delete_records.sql')
-    execute_sql_from_file(db_filepath, 'query_aggregation.sql')
-    execute_sql_from_file(db_filepath, 'query_filter.sql')
-    execute_sql_from_file(db_filepath, 'query_sorting.sql')
-    execute_sql_from_file(db_filepath, 'query_group_by.sql')
-    execute_sql_from_file(db_filepath, 'query_join.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/create_tables.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/insert_records.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/update_records.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/delete_records.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/query_aggregation.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/query_filter.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/query_sorting.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/query_group_by.sql')
+    execute_sql_from_file(db_filepath, 'sql_file/query_join.sql')
 
     logging.info("All SQL operations completed successfully")
 ```
