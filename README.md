@@ -1,6 +1,6 @@
-## datafun-05-sql
-## Project 5 repository
-# Objective: Create a Python script that demonstrates the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
+# datafun-05-sql
+# Project 5 repository
+## Objective: Create a Python script that demonstrates the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
 
 ### Step 1. Start a new project repository in GitHub with default ReadME
 
@@ -33,7 +33,7 @@ py -m pip install -r requirements.txt
 
 ni gitignore
 ```
-## How to Install and Run the Project
+### How to Install and Run the Project
 
 ### Step 7. Add script
 
@@ -70,7 +70,7 @@ git add .
 git commit -m "add .gitignore, cmds to readme"
 git push origin main
 ```
-### Project components
+# Project components
 
 ### Step 1. Create python script 
 ```ni books_authors_sql.py
@@ -91,7 +91,7 @@ def create_database():
         print("Error creating the database:", e)
 ```
 
-### Step 3. Create sql scripts in sql_file folder
+### Step 3. Create sql scripts in sql_file folder, individual queries contained in each file
 
 ```shell
 ni create_tables.sql
@@ -105,7 +105,7 @@ ni query_join.sql
 ```
 import logging
 
-# Step 4. Python and SQL Integration
+### Step 4. Python and SQL Integration
 ```import sqlite3
 
 def execute_sql_from_file(db_filepath, sql_file):
