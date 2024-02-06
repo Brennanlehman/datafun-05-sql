@@ -73,7 +73,9 @@ git push origin main
 # Project components
 
 ### Step 1. Create python script 
-```ni books_authors_sql.py
+```shell
+ni books_authors_sql.py
+ni author_sql_execute.py
 ```
 ### Step 2. Create database using the python file
 ```db_file = pathlib.Path("project.db")
@@ -103,7 +105,6 @@ ni query_sorting.sql
 ni query_group_by.sql
 ni query_join.sql
 ```
-import logging
 
 ### Step 4. Python and SQL Integration
 ```import sqlite3
@@ -118,7 +119,7 @@ def execute_sql_from_file(db_filepath, sql_file):
 
 ### 5. Define Main Function
 ```def main():
-    db_filepath = 'your_database.db'
+    db_filepath = pathlib.Path("C:\\Users\\blehman\\Projects\\datafun-05-sql\\project.db")
 
     # Create database schema and populate with data
     execute_sql_from_file(db_filepath, 'create_tables.sql')
@@ -133,4 +134,11 @@ def execute_sql_from_file(db_filepath, sql_file):
 
     logging.info("All SQL operations completed successfully")
 ```
+### 6. Logging
+```shell
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 
+logging.info("Program started")
+logging.info("Program ended")
+```
