@@ -44,12 +44,10 @@ brennan_sql.py
 
 ```shell
 
-py -m pip install jupyterlab
-py -m pip install numpy
 py -m pip install pandas
-py -m pip install matplotlib 
-py -m pip install seaborn
-py -m pip install scipy
+py -m pip install pyarrow
+python.exe -m pip install --upgrade pip
+
 ```
 
 ### Step 9. Freeze dependencies
